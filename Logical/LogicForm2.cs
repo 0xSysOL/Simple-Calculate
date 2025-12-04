@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Project_1_SimpleCalculetor.Logical
 {
@@ -12,9 +13,14 @@ namespace Project_1_SimpleCalculetor.Logical
 
 
 
+        private void _HideForm(Form HideForm) 
+        {
 
+            HideForm.Hide();
 
-        public void Proce_WitchProgramWeNeedToRun(int Index) 
+        }
+
+        public void Proce_WitchProgramWeNeedToRun(int Index, Form HideForm) 
         {
 
             switch (Index) 
@@ -24,8 +30,8 @@ namespace Project_1_SimpleCalculetor.Logical
                 case 0:
                     CalculateForm ShowCalculateForm = new CalculateForm();
                     ShowCalculateForm.Show();
-
-                break;
+                    _HideForm(HideForm);
+                    break;
 
                 case 1:
 

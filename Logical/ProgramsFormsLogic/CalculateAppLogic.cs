@@ -72,6 +72,7 @@ namespace Project_1_SimpleCalculetor.Logical.ProgramsFormsLogic
                 if (_Operations(Text[i]))
                 {
                     LengthSides = i;
+                    break;
                 }
 
             }

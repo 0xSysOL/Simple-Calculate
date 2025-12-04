@@ -35,13 +35,14 @@ namespace Project_1_SimpleCalculetor
 
             if (Convert.ToBoolean(butSubmet.Tag) == true)
             {
-                this.Hide();    
-                LogicForm2.Proce_WitchProgramWeNeedToRun(get.TabIndex);
+                LogicForm2.Proce_WitchProgramWeNeedToRun(get.TabIndex,this);
             }
+            butSubmet.Tag = false;
 
         }
         private void butSubmet_Click(object sender, EventArgs e)
         {
+
             butSubmet.Tag = true;
             radioChange(get, e);
 
