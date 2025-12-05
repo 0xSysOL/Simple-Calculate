@@ -28,7 +28,7 @@ namespace Project_1_SimpleCalculetor.Logical
 
 
                 case 0:
-                    CalculateForm ShowCalculateForm = new CalculateForm();
+                    Form_CalculateApp ShowCalculateForm = new Form_CalculateApp();
                     ShowCalculateForm.Show();
                     _HideForm(HideForm);
                     break;

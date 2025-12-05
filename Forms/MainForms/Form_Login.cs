@@ -11,13 +11,13 @@ using System.Windows.Forms;
 
 namespace Project_1_SimpleCalculetor
 {
-    public partial class Form1 : Form
+    public partial class Form_Login : Form
     {
-        public Form1()
+        public Form_Login()
         {
             InitializeComponent();
         }
-        Logic_Form1 Object = new Logic_Form1();
+        Logic_LoginF Object = new Logic_LoginF();
         private void TX_UserName_TextChanged(object sender, EventArgs e)
         {
 

@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Project_1_SimpleCalculetor
 {
-    public partial class Form2 : Form
+    public partial class Form_ProgramSelection : Form
     {
-        public Form2()
+        public Form_ProgramSelection()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Project_1_SimpleCalculetor.Forms.ProgramsForms
 {
-    partial class CalculateForm
+    partial class Form_CalculateApp
     {
         /// <summary>
         /// Required designer variable.

@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace Project_1_SimpleCalculetor.Logical
 {
-    internal class Logic_Form1
+    internal class Logic_LoginF
     {
 
         public void Proce_Login(string UserName,string Password,Form GetCurrent) 
@@ -17,7 +17,7 @@ namespace Project_1_SimpleCalculetor.Logical
 
             if ((UserName == "Admin" && Password == "1234") || true) 
             {
-                Form2 f = new Form2();
+                Form_ProgramSelection f = new Form_ProgramSelection();
                 GetCurrent.Hide();
                 f.Show();
             }

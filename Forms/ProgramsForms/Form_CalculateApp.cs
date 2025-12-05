@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Project_1_SimpleCalculetor.Forms.ProgramsForms
 {
-    public partial class CalculateForm : Form
+    public partial class Form_CalculateApp : Form
     {
-        public CalculateForm()
+        public Form_CalculateApp()
         {
             InitializeComponent();
             button0.Tag = (Byte)0;
@@ -71,8 +71,16 @@ namespace Project_1_SimpleCalculetor.Forms.ProgramsForms
         private void button_Eq_Click(object sender, EventArgs e)
         {
 
-            TB_ShowOperations.Text = clsStart.StartOperation_Calculator(TB_ShowOperations.Text).ToString();
-
+            
+            long Result = clsStart.StartOperation_Calculator(TB_ShowOperations.Text);
+            if (Result != -1) 
+            {
+                TB_ShowOperations.Text = Result.ToString();
+            }
+            else 
+            {
+                            TB_ShowOperations.Text = "Error";
+            }
 
         }
     }

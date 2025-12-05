@@ -1,6 +1,6 @@
 ﻿namespace Project_1_SimpleCalculetor
 {
-    partial class Form1
+    partial class Form_Login
     {
         /// <summary>
         /// Required designer variable.

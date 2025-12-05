@@ -1,6 +1,6 @@
 ﻿namespace Project_1_SimpleCalculetor
 {
-    partial class Form2
+    partial class Form_ProgramSelection
     {
         /// <summary>
         /// Required designer variable.
@@ -218,7 +218,7 @@
             this.radioButton6.UseVisualStyleBackColor = true;
             this.radioButton6.Click += new System.EventHandler(this.radioChange);
             // 
-            // Form2
+            // Form_ProgramSelection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -238,8 +238,8 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "Form_ProgramSelection";
+            this.Text = "Program Selection";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
