@@ -10,7 +10,13 @@ A simple calculator in C#.
 
 ## situation/project status
 ~~the project under development~~
+
 Done
+
+
+
+
+
 
 
 
@@ -27,6 +33,13 @@ Done
 
 ## situation/Status
 the project under development
+
+
+
+
+
+
+
 
 # Info
 
