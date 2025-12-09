@@ -109,11 +109,11 @@
             this.radioButton3.ForeColor = System.Drawing.Color.White;
             this.radioButton3.Location = new System.Drawing.Point(269, 289);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(111, 22);
+            this.radioButton3.Size = new System.Drawing.Size(99, 22);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.TabStop = true;
             this.radioButton3.Tag = "";
-            this.radioButton3.Text = "No Program";
+            this.radioButton3.Text = "To-Do List";
             this.radioButton3.UseVisualStyleBackColor = true;
             this.radioButton3.Click += new System.EventHandler(this.radioChange);
             // 
@@ -202,12 +202,15 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pictureBox2.Location = new System.Drawing.Point(259, 136);
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Project_1_SimpleCalculetor.Properties.Resources.List_free_icons_designed_by_Freepik;
+            this.pictureBox2.Location = new System.Drawing.Point(259, 163);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(113, 147);
+            this.pictureBox2.Size = new System.Drawing.Size(113, 120);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 

@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Project_1_SimpleCalculetor.Logical
 {
-    internal class LogicForm2
+    internal class Logic_ProgramSelection
     {
 
 
@@ -37,12 +37,13 @@ namespace Project_1_SimpleCalculetor.Logical
                     Form_UserInputTable ShowUserInputTable = new Form_UserInputTable();
                     ShowUserInputTable.Show();
                     _HideForm(HideForm);
-
-
-
                     break;
 
                 case 2:
+                    Form_To_Do_List Show_To_Do_ListForm = new Form_To_Do_List();
+                    Show_To_Do_ListForm.Show();
+                    _HideForm(HideForm);
+
 
                     break;
                

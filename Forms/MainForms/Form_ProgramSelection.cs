@@ -17,8 +17,8 @@ namespace Project_1_SimpleCalculetor
         {
             InitializeComponent();
         }
-        LogicForm2 LogicForm2 = new LogicForm2();
-        RadioButton get = new RadioButton();
+      private  Logic_ProgramSelection _LogicProgramSelection = new Logic_ProgramSelection();
+      private  RadioButton get = new RadioButton();
         private void Form2_Load(object sender, EventArgs e)
         {
 
@@ -35,7 +35,7 @@ namespace Project_1_SimpleCalculetor
 
             if (Convert.ToBoolean(butSubmet.Tag) == true)
             {
-                LogicForm2.Proce_WitchProgramWeNeedToRun(get.TabIndex,this);
+                _LogicProgramSelection.Proce_WitchProgramWeNeedToRun(get.TabIndex,this);
             }
             butSubmet.Tag = false;
 
@@ -48,6 +48,9 @@ namespace Project_1_SimpleCalculetor
 
         }
 
-        
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
