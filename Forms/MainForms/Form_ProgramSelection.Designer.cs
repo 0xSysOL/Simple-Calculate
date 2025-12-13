@@ -134,12 +134,12 @@
             this.radioButton5.AutoSize = true;
             this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
             this.radioButton5.ForeColor = System.Drawing.Color.White;
-            this.radioButton5.Location = new System.Drawing.Point(507, 289);
+            this.radioButton5.Location = new System.Drawing.Point(500, 289);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(111, 22);
+            this.radioButton5.Size = new System.Drawing.Size(110, 22);
             this.radioButton5.TabIndex = 4;
             this.radioButton5.Tag = "";
-            this.radioButton5.Text = "No Program";
+            this.radioButton5.Text = "Soon (BDE)";
             this.radioButton5.UseVisualStyleBackColor = true;
             this.radioButton5.Click += new System.EventHandler(this.radioChange);
             // 
@@ -150,28 +150,32 @@
             this.radioButton6.ForeColor = System.Drawing.Color.White;
             this.radioButton6.Location = new System.Drawing.Point(616, 289);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(111, 22);
+            this.radioButton6.Size = new System.Drawing.Size(107, 22);
             this.radioButton6.TabIndex = 5;
             this.radioButton6.Tag = "";
-            this.radioButton6.Text = "No Program";
+            this.radioButton6.Text = "Soon (SBL)";
             this.radioButton6.UseVisualStyleBackColor = true;
             this.radioButton6.Click += new System.EventHandler(this.radioChange);
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pictureBox6.Location = new System.Drawing.Point(616, 136);
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = global::Project_1_SimpleCalculetor.Properties.Resources.book;
+            this.pictureBox6.Location = new System.Drawing.Point(616, 163);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(113, 147);
+            this.pictureBox6.Size = new System.Drawing.Size(113, 120);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pictureBox5.Location = new System.Drawing.Point(497, 136);
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = global::Project_1_SimpleCalculetor.Properties.Resources.data_entry;
+            this.pictureBox5.Location = new System.Drawing.Point(497, 163);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(113, 147);
+            this.pictureBox5.Size = new System.Drawing.Size(113, 120);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
             // 

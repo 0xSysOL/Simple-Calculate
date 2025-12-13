@@ -51,6 +51,50 @@ A simple calculator in C#.
 - Done
 
 
+# Mini project 4
+
+# Books
+
+## Feature
+- Miscellaneous books
+
+
+## situation/Status
+the project under development
+
+
+
+
+# Mini project 5
+
+# Data Entry Books
+
+## Feature
+- Add Data To Database
+
+- column
+1 ID_BOOK
+2 Book image
+3 Link Book on amazon
+
+## situation/Status
+the project under development
+
+
+
+
+
+# Mini project 6
+
+# Show Book List
+
+## Feature
+- Get all data from Database
+
+## situation/Status
+the project under development
+
+
 
 
 # Info

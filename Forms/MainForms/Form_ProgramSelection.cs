@@ -28,6 +28,7 @@ namespace Project_1_SimpleCalculetor
 
 
 
+
       
         private void radioChange(object sender, EventArgs e)
         {
@@ -35,7 +36,7 @@ namespace Project_1_SimpleCalculetor
 
             if (Convert.ToBoolean(butSubmet.Tag) == true)
             {
-                _LogicProgramSelection.Proce_WitchProgramWeNeedToRun(get.TabIndex,this);
+                _LogicProgramSelection.Proce_WitchProgramWeWantToRun(get.TabIndex,this);
             }
             butSubmet.Tag = false;
 

@@ -20,7 +20,7 @@ namespace Project_1_SimpleCalculetor.Logical
 
         }
 
-        public void Proce_WitchProgramWeNeedToRun(int Index, Form HideForm) 
+        public void Proce_WitchProgramWeWantToRun(int Index, Form HideForm) 
         {
 
             switch (Index) 
@@ -32,7 +32,7 @@ namespace Project_1_SimpleCalculetor.Logical
                     ShowCalculateForm.Show();
                     _HideForm(HideForm);
                     break;
-
+                     
                 case 1:
                     Form_UserInputTable ShowUserInputTable = new Form_UserInputTable();
                     ShowUserInputTable.Show();
@@ -48,6 +48,10 @@ namespace Project_1_SimpleCalculetor.Logical
                     break;
                
                 case 3:
+                    Form_Library Show_LibraryForm = new Form_Library();
+                    Show_LibraryForm.Show();
+                    _HideForm(HideForm);
+                   
 
                     break;
                 

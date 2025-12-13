@@ -64,6 +64,12 @@
     <Compile Include="Forms\ProgramsForms\Form_CalculateApp.Designer.cs">
       <DependentUpon>Form_CalculateApp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ProgramsForms\Form_Library.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProgramsForms\Form_Library.Designer.cs">
+      <DependentUpon>Form_Library.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ProgramsForms\Form_To-Do_List.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,7 @@
     <Compile Include="Logical\MainLogic\Logic_ProgramSelection.cs" />
     <Compile Include="Logical\MainLogic\Logic_LoginF.cs" />
     <Compile Include="Logical\ProgramsFormsLogic\Logic_CalculateApp.cs" />
+    <Compile Include="Logical\ProgramsFormsLogic\Logic_Library.cs" />
     <Compile Include="Logical\ProgramsFormsLogic\Logic_To_Do_List.cs" />
     <Compile Include="Logical\ProgramsFormsLogic\Logic_UserInputTable.cs" />
     <Compile Include="ProjectFiles\Program.cs" />
@@ -91,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ProgramsForms\Form_CalculateApp.resx">
       <DependentUpon>Form_CalculateApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProgramsForms\Form_Library.resx">
+      <DependentUpon>Form_Library.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ProgramsForms\Form_To-Do_List.resx">
       <DependentUpon>Form_To-Do_List.cs</DependentUpon>
@@ -132,6 +142,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Picturs\Uma pilha de livros_ _ Vetor Premium.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Picturs\data-entry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Picturs\book.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
